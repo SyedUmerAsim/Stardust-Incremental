@@ -1,0 +1,24 @@
+body{
+    background-color: hsl(234, 66%, 12%);
+}
+
+#title{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.textC{
+    font-size: 20px;
+    text-align: center;
+    color:blanchedalmond;
+}
+
+#startB{
+    font-size: 20px;
+    text-align: center;
+    color:blanchedalmond;
+    border: 2px solid blanchedalmond;
+    display: inline-block;
+    padding: 10px;
+    transform: translateX(638px);
+}
