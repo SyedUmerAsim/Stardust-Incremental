@@ -1,5 +1,10 @@
 body{
     background-color: hsl(234, 66%, 12%);
+    color:blanchedalmond;
+}
+
+a{
+    text-decoration: none;
 }
 
 #title{
@@ -16,9 +21,40 @@ body{
 #startB{
     font-size: 20px;
     text-align: center;
-    color:blanchedalmond;
     border: 2px solid blanchedalmond;
     display: inline-block;
     padding: 10px;
     transform: translateX(638px);
+}
+
+#startB:visited{
+    color:blanchedalmond;
+    text-decoration-line: none;
+}
+
+.tabbar{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    transform: translateY(100px);
+}
+.tab{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabbutton1{
+    background-color: rgb(255, 80, 80); /* temporary color*/
+}
+#tabbutton2{
+    background-color: rgb(255, 80, 188); /* temporary color*/
+}
+#tabbutton3{
+    background-color: rgb(83, 80, 255); /* temporary color*/
+}
+#tabbutton4{
+    background-color: rgb(255, 252, 80); /* temporary color*/
 }
