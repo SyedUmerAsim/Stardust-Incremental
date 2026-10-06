@@ -63,3 +63,10 @@ a{
 #tabbutton4{
     background-color: rgb(255, 252, 80); /* temporary color*/
 }
+
+#upg1{
+    border: 3px solid brown;
+    width: 700px;
+    height: 40px;   
+    transform: translate(300px, 150px);
+}
