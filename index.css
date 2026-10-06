@@ -27,9 +27,14 @@ a{
     transform: translateX(638px);
 }
 
-#startB:visited{
+#startB a:visited{
     color:blanchedalmond;
     text-decoration-line: none;
+}
+
+#count{
+    font-size: 30px;
+    transform: translate(600px, 50px);
 }
 
 .tabbar{
