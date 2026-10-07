@@ -54,8 +54,14 @@ a{
 #tabbutton1{
     background-color: rgb(255, 80, 80); /* temporary color*/
 }
+#tabbutton1 a:visited{
+    color: blanchedalmond;
+}
 #tabbutton2{
     background-color: rgb(255, 80, 188); /* temporary color*/
+}
+#tabbutton2 a:visited{
+    color: blanchedalmond;
 }
 #tabbutton3{
     background-color: rgb(83, 80, 255); /* temporary color*/
@@ -67,6 +73,13 @@ a{
 #upg1{
     border: 3px solid brown;
     width: 700px;
+    height: 40px;   
+    transform: translate(300px, 150px);
+}
+
+#gen1{
+    border: 3px solid brown;
+    width: 300px;
     height: 40px;   
     transform: translate(300px, 150px);
 }
