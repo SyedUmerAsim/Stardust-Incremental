@@ -32,5 +32,17 @@ a{
     
 }
 
+#startBhelp{
+    transform: translateX(590px);
+    animation-name: FadeIn;
+    animation-delay: 30s;
+    animation-duration: 2s;
+    opacity: 0;
+}
+
+@keyframes FadeIn{
+    100%{opacity: 1}
+}
+
     
     
