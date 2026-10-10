@@ -19,16 +19,18 @@ a{
 }
 
 #startB{
+    background-color:rgb(79, 79, 122);
     font-size: 20px;
-    text-align: center;
-    border: 2px solid blanchedalmond;
-    display: inline-block;
     padding: 10px;
     transform: translateX(638px);
 }
-
-#startB a:visited{
-    color:blanchedalmond;
-    text-decoration-line: none;
+#startB:hover{
+    background-color: rgb(60, 60, 128);
+}
+#startB:active{
+    background-color: rgb(50, 50, 139);
+    
 }
 
+    
+    
